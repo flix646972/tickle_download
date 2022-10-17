@@ -1,7 +1,7 @@
 var abc = document.getElementsByTagName("a");
 var zx = document.querySelectorAll(".fib");
 
-let timeSecond = 30;
+let timeSecond = 5;
 var timeH = document.querySelectorAll(".epd .bdcontainer h1");
 
 displayTime(timeSecond);
