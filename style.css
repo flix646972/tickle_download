@@ -14,6 +14,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav a{
+    padding-left: 20px;
+    text-decoration: none;
+}
 .section-header {
     margin-bottom: 30px;
     padding-left: 20px;
@@ -91,7 +95,7 @@ body {
     overflow-x: hidden;
 }
 
-a {
+.bdcontainer a {
     text-decoration: none;
     color: unset;
 }
@@ -152,4 +156,18 @@ a {
 a.logo:hover,
 a.movie-item:hover {
     color: unset;
+}
+
+@media only screen and (max-width: 850px) {
+    .bdcontainer script{
+        width: 90%;
+    }
+    .epdb{
+      
+        padding: 0px;
+       
+}
+.epd section{
+   overflow-x: scroll;
+}
 }
